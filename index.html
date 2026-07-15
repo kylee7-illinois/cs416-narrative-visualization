@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How COVID-19 Spread Across the United States in 2020</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">CS416 Narrative Visualization</p>
+      <h1>How COVID-19 Spread Across the United States in 2020</h1>
+      <p class="subtitle">
+        An interactive slideshow using New York Times state-level COVID-19 data.
+      </p>
+    </header>
+
+    <section class="story-card">
+      <div class="scene-nav">
+        <button id="prevBtn">Previous</button>
+        <div id="sceneDots" class="dots"></div>
+        <button id="nextBtn">Next</button>
+      </div>
+
+      <div class="scene-heading">
+        <h2 id="sceneTitle"></h2>
+        <p id="sceneText"></p>
+      </div>
+
+      <div id="controls" class="controls"></div>
+      <div id="annotation" class="annotation"></div>
+
+      <div id="vis" class="vis"></div>
+    </section>
+  </main>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson-client@3"></script>
+  <script src="script.js"></script>
+</body>
+</html>
