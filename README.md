@@ -112,17 +112,7 @@ http://localhost:8000
 
 ## Deployment
 
-This project can be hosted on GitHub Pages or any static web server.
-
-After deployment, open the hosted URL directly in a browser.
-
-For GitHub Pages:
-
-1. Push the project files to a GitHub repository.
-2. Open the repository settings.
-3. Enable GitHub Pages.
-4. Select the branch and folder containing `index.html`.
-5. Use the generated GitHub Pages URL as the project submission URL.
+The project is deployed through GitHub Pages from the repository’s main branch. The deployed page was tested in Chrome to verify that the local CSV, external TopoJSON file, controls, annotations, and tooltips load correctly.
 
 ## Notes
 
